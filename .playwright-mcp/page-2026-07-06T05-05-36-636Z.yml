@@ -1,0 +1,123 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "Starter Kit" [ref=f3e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=f3e6]
+          - generic [ref=f3e8]: Starter Kit
+        - navigation [ref=f3e9]:
+          - list [ref=f3e10]:
+            - listitem [ref=f3e11]:
+              - link "홈" [ref=f3e12] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f3e13]:
+              - link "갤러리" [ref=f3e14] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f3e15]:
+              - link "대시보드" [ref=f3e16] [cursor=pointer]:
+                - /url: /dashboard
+        - button "테마 전환" [ref=f3e18]:
+          - img
+          - generic [ref=f3e19]: 테마 전환
+    - main [ref=f3e20]:
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]:
+          - heading "컴포넌트 갤러리" [level=1] [ref=f3e23]
+          - paragraph [ref=f3e24]: 설치된 컴포넌트를 카테고리별로 직접 조작해볼 수 있습니다.
+        - generic [ref=f3e25]:
+          - tablist [ref=f3e27]:
+            - tab "쇼케이스" [ref=f3e28]
+            - tab "폼 예제" [ref=f3e29]
+            - tab "테이블 예제" [selected] [ref=f3e30]
+          - button "대시보드 예제 보기" [ref=f3e31] [cursor=pointer]:
+            - text: 대시보드 예제 보기
+            - img
+        - generic [ref=f3e32]:
+          - generic [ref=f3e33]:
+            - generic [ref=f3e34]: 구성원 목록
+            - generic [ref=f3e35]: "@tanstack/react-table로 정렬, 검색, 페이지네이션이 동작하는 테이블 예제입니다. 열 제목을 클릭하면 정렬되고, 검색창에 입력하면 전체 컬럼에서 필터링됩니다."
+          - generic [ref=f3e37]:
+            - textbox "구성원 검색" [ref=f3e38]:
+              - /placeholder: 이름, 이메일로 검색...
+            - table [ref=f3e41]:
+              - rowgroup [ref=f3e42]:
+                - row "이름 이메일 역할 상태 가입일" [ref=f3e43]:
+                  - columnheader "이름" [ref=f3e44]:
+                    - button "이름" [ref=f3e45]:
+                      - text: 이름
+                      - img
+                  - columnheader "이메일" [ref=f3e46]:
+                    - button "이메일" [ref=f3e47]:
+                      - text: 이메일
+                      - img
+                  - columnheader "역할" [ref=f3e48]:
+                    - button "역할" [ref=f3e49]:
+                      - text: 역할
+                      - img
+                  - columnheader "상태" [ref=f3e50]:
+                    - button "상태" [ref=f3e51]:
+                      - text: 상태
+                      - img
+                  - columnheader "가입일" [ref=f3e52]:
+                    - button "가입일" [ref=f3e53]:
+                      - text: 가입일
+                      - img
+              - rowgroup [ref=f3e54]:
+                - row "김민준 minjun@example.com 개발자 활성 2024-01-12" [ref=f3e55]:
+                  - cell "김민준" [ref=f3e56]
+                  - cell "minjun@example.com" [ref=f3e57]
+                  - cell "개발자" [ref=f3e58]
+                  - cell "활성" [ref=f3e59]:
+                    - generic [ref=f3e60]: 활성
+                  - cell "2024-01-12" [ref=f3e61]
+                - row "이서연 seoyeon@example.com 디자이너 활성 2024-02-03" [ref=f3e62]:
+                  - cell "이서연" [ref=f3e63]
+                  - cell "seoyeon@example.com" [ref=f3e64]
+                  - cell "디자이너" [ref=f3e65]
+                  - cell "활성" [ref=f3e66]:
+                    - generic [ref=f3e67]: 활성
+                  - cell "2024-02-03" [ref=f3e68]
+                - row "박도윤 doyoon@example.com 기획자 대기 2024-02-20" [ref=f3e69]:
+                  - cell "박도윤" [ref=f3e70]
+                  - cell "doyoon@example.com" [ref=f3e71]
+                  - cell "기획자" [ref=f3e72]
+                  - cell "대기" [ref=f3e73]:
+                    - generic [ref=f3e74]: 대기
+                  - cell "2024-02-20" [ref=f3e75]
+                - row "최지우 jiwoo@example.com 개발자 비활성 2023-11-08" [ref=f3e76]:
+                  - cell "최지우" [ref=f3e77]
+                  - cell "jiwoo@example.com" [ref=f3e78]
+                  - cell "개발자" [ref=f3e79]
+                  - cell "비활성" [ref=f3e80]:
+                    - generic [ref=f3e81]: 비활성
+                  - cell "2023-11-08" [ref=f3e82]
+                - row "정하은 haeun@example.com 디자이너 활성 2024-03-15" [ref=f3e83]:
+                  - cell "정하은" [ref=f3e84]
+                  - cell "haeun@example.com" [ref=f3e85]
+                  - cell "디자이너" [ref=f3e86]
+                  - cell "활성" [ref=f3e87]:
+                    - generic [ref=f3e88]: 활성
+                  - cell "2024-03-15" [ref=f3e89]
+            - generic [ref=f3e90]:
+              - paragraph [ref=f3e91]: 총 8건 중 1–5
+              - generic [ref=f3e92]:
+                - button "이전" [disabled]
+                - generic [ref=f3e93]: 1 / 2
+                - button "다음" [ref=f3e94]
+    - contentinfo [ref=f3e95]:
+      - generic [ref=f3e96]:
+        - generic [ref=f3e97]:
+          - generic [ref=f3e98]: Starter Kit
+          - navigation [ref=f3e99]:
+            - link "홈" [ref=f3e100] [cursor=pointer]:
+              - /url: /
+            - link "갤러리" [ref=f3e101] [cursor=pointer]:
+              - /url: /gallery
+            - link "대시보드" [ref=f3e102] [cursor=pointer]:
+              - /url: /dashboard
+        - separator [ref=f3e103]
+        - paragraph [ref=f3e104]: © 2026 Starter Kit. Next.js, TypeScript, Tailwind CSS, shadcn/ui로 제작되었습니다.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f3e110] [cursor=pointer]:
+    - img [ref=f3e111]

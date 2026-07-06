@@ -1,0 +1,173 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Starter Kit" [ref=f1e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=f1e6]
+          - generic [ref=f1e8]: Starter Kit
+        - navigation [ref=f1e9]:
+          - list [ref=f1e10]:
+            - listitem [ref=f1e11]:
+              - link "홈" [ref=f1e12] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e13]:
+              - link "갤러리" [ref=f1e14] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f1e15]:
+              - link "대시보드" [ref=f1e16] [cursor=pointer]:
+                - /url: /dashboard
+        - button "테마 전환" [ref=f1e18]:
+          - img
+          - generic [ref=f1e19]: 테마 전환
+    - main [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - heading "컴포넌트 갤러리" [level=1] [ref=f1e23]
+          - paragraph [ref=f1e24]: 설치된 컴포넌트를 카테고리별로 직접 조작해볼 수 있습니다.
+        - generic [ref=f1e25]:
+          - tablist [ref=f1e27]:
+            - tab "쇼케이스" [selected] [ref=f1e28]
+            - tab "폼 예제" [ref=f1e29]
+            - tab "테이블 예제" [ref=f1e30]
+          - button "대시보드 예제 보기" [ref=f1e31] [cursor=pointer]:
+            - text: 대시보드 예제 보기
+            - img
+        - generic [ref=f1e32]:
+          - generic [ref=f1e33]:
+            - generic [ref=f1e34]:
+              - generic [ref=f1e35]: 기초 입력 컴포넌트
+              - generic [ref=f1e36]: Input, Select, Checkbox 등 폼에서 가장 많이 쓰이는 요소들입니다.
+            - generic [ref=f1e37]:
+              - group [ref=f1e38]:
+                - generic [ref=f1e39]: 이름
+                - textbox "이름" [ref=f1e40]:
+                  - /placeholder: 홍길동
+                - paragraph [ref=f1e41]: 실시간으로 값이 반영됩니다.
+              - group [ref=f1e42]:
+                - generic [ref=f1e43]: 메모
+                - textbox "메모" [ref=f1e44]:
+                  - /placeholder: 자유롭게 입력하세요
+              - group [ref=f1e45]:
+                - generic [ref=f1e46]: 역할
+                - combobox [ref=f1e47]:
+                  - generic [ref=f1e48]: developer
+                  - img: ▼
+                - textbox [ref=f1e49]: developer
+              - generic [ref=f1e50]:
+                - group [ref=f1e51]:
+                  - checkbox [checked] [ref=f1e52]:
+                    - img [ref=f1e54]
+                  - checkbox [checked] [ref=f1e56]
+                  - generic [ref=f1e57]: 이용약관에 동의합니다
+                - radiogroup [ref=f1e58]:
+                  - group [ref=f1e59]:
+                    - radio [checked] [ref=f1e60]
+                    - radio [checked] [ref=f1e63]
+                    - generic [ref=f1e64]: 월간
+                  - group [ref=f1e65]:
+                    - radio [ref=f1e66]
+                    - radio [ref=f1e67]
+                    - generic [ref=f1e68]: 연간
+                - group [ref=f1e69]:
+                  - switch [checked] [ref=f1e70]
+                  - checkbox [checked] [ref=f1e71]
+                  - generic [ref=f1e72]: 알림 받기
+              - generic [ref=f1e73]:
+                - generic [ref=f1e74]:
+                  - text: 음량
+                  - generic [ref=f1e75]: "40"
+                - group [ref=f1e76]:
+                  - slider [ref=f1e81]: "40"
+              - generic [ref=f1e82]:
+                - generic [ref=f1e83]: 정렬
+                - group [ref=f1e84]:
+                  - button "왼쪽" [pressed] [ref=f1e85]
+                  - button "가운데" [ref=f1e86]
+                  - button "오른쪽" [ref=f1e87]
+                - button "즐겨찾기 토글" [ref=f1e88]: 즐겨찾기
+          - generic [ref=f1e89]:
+            - generic [ref=f1e90]:
+              - generic [ref=f1e91]: 피드백 컴포넌트
+              - generic [ref=f1e92]: 상태, 진행률, 알림을 사용자에게 전달합니다.
+            - generic [ref=f1e93]:
+              - alert [ref=f1e94]:
+                - img [ref=f1e95]
+                - generic [ref=f1e97]: 업데이트 안내
+                - generic [ref=f1e98]: 새로운 기능이 추가되었습니다. 자세한 내용을 확인해보세요.
+              - generic [ref=f1e99]:
+                - generic [ref=f1e100]: 기본
+                - generic [ref=f1e101]: 보조
+                - generic [ref=f1e102]: 아웃라인
+                - generic [ref=f1e103]: 위험
+              - generic [ref=f1e104]:
+                - generic [ref=f1e105]: 진행률 66%
+                - progressbar [ref=f1e106]: x
+              - generic [ref=f1e110]: 스켈레톤
+              - button "토스트 알림 띄우기" [ref=f1e116]
+          - generic [ref=f1e117]:
+            - generic [ref=f1e118]:
+              - generic [ref=f1e119]: 오버레이 컴포넌트
+              - generic [ref=f1e120]: Dialog, Popover, Tooltip 등 사용자 흐름을 잠시 멈추거나 보조 정보를 보여줍니다.
+            - generic [ref=f1e121]:
+              - button "다이얼로그 열기" [ref=f1e122]
+              - button "계정 삭제" [ref=f1e123]
+              - button "팝오버 열기" [ref=f1e124]
+              - button [ref=f1e125]:
+                - img
+              - button "@nextjs" [ref=f1e126]
+          - generic [ref=f1e127]:
+            - generic [ref=f1e128]:
+              - generic [ref=f1e129]: 네비게이션 컴포넌트
+              - generic [ref=f1e130]: 위치 안내와 메뉴 탐색을 돕는 컴포넌트입니다.
+            - generic [ref=f1e132]:
+              - navigation "breadcrumb" [ref=f1e133]:
+                - list [ref=f1e134]:
+                  - listitem [ref=f1e135]:
+                    - link "홈" [ref=f1e136] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=f1e137]:
+                    - img [ref=f1e138]
+                  - listitem [ref=f1e140]:
+                    - link "갤러리" [ref=f1e141] [cursor=pointer]:
+                      - /url: /gallery
+                  - listitem [ref=f1e142]:
+                    - img [ref=f1e143]
+                  - listitem [ref=f1e145]:
+                    - link "쇼케이스" [disabled] [ref=f1e146]
+              - separator [ref=f1e147]
+              - navigation "pagination" [ref=f1e148]:
+                - list [ref=f1e149]:
+                  - listitem [ref=f1e150]:
+                    - button "Go to previous page" [ref=f1e151] [cursor=pointer]:
+                      - img
+                      - generic [ref=f1e152]: Previous
+                  - listitem [ref=f1e153]:
+                    - button "1" [ref=f1e154] [cursor=pointer]
+                  - listitem [ref=f1e155]:
+                    - button "2" [ref=f1e156] [cursor=pointer]
+                  - listitem [ref=f1e157]:
+                    - button "3" [ref=f1e158] [cursor=pointer]
+                  - listitem [ref=f1e159]:
+                    - button "Go to next page" [ref=f1e160] [cursor=pointer]:
+                      - generic [ref=f1e161]: Next
+                      - img
+              - button "계정 메뉴" [ref=f1e162]:
+                - img
+                - text: 계정 메뉴
+    - contentinfo [ref=f1e163]:
+      - generic [ref=f1e164]:
+        - generic [ref=f1e165]:
+          - generic [ref=f1e166]: Starter Kit
+          - navigation [ref=f1e167]:
+            - link "홈" [ref=f1e168] [cursor=pointer]:
+              - /url: /
+            - link "갤러리" [ref=f1e169] [cursor=pointer]:
+              - /url: /gallery
+            - link "대시보드" [ref=f1e170] [cursor=pointer]:
+              - /url: /dashboard
+        - separator [ref=f1e171]
+        - paragraph [ref=f1e172]: © 2026 Starter Kit. Next.js, TypeScript, Tailwind CSS, shadcn/ui로 제작되었습니다.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f1e178] [cursor=pointer]:
+    - img [ref=f1e179]

@@ -1,0 +1,129 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - generic [ref=f9e5]:
+      - list [ref=f9e7]:
+        - listitem [ref=f9e8]:
+          - link "Starter Kit" [ref=f9e9] [cursor=pointer]:
+            - /url: /
+            - img [ref=f9e10]
+            - generic [ref=f9e12]: Starter Kit
+      - generic [ref=f9e14]:
+        - generic [ref=f9e15]: 메뉴
+        - list [ref=f9e17]:
+          - listitem [ref=f9e18]:
+            - link "대시보드" [ref=f9e19] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=f9e20]
+              - generic [ref=f9e25]: 대시보드
+          - listitem [ref=f9e26]:
+            - link "컴포넌트 갤러리" [ref=f9e27] [cursor=pointer]:
+              - /url: /gallery
+              - img [ref=f9e28]
+              - generic [ref=f9e31]: 컴포넌트 갤러리
+          - listitem [ref=f9e32]:
+            - link "홈으로" [ref=f9e33] [cursor=pointer]:
+              - /url: /
+              - img [ref=f9e34]
+              - generic [ref=f9e37]: 홈으로
+      - list [ref=f9e39]:
+        - listitem [ref=f9e40]:
+          - button "G 게스트 사용자" [ref=f9e41]:
+            - generic [ref=f9e43]: G
+            - generic [ref=f9e44]: 게스트 사용자
+      - button "Toggle Sidebar" [ref=f9e45]
+    - main [ref=f9e46]:
+      - generic [ref=f9e47]:
+        - button "Toggle Sidebar" [ref=f9e48]:
+          - img
+          - generic [ref=f9e49]: Toggle Sidebar
+        - separator [ref=f9e50]
+        - navigation "breadcrumb" [ref=f9e51]:
+          - list [ref=f9e52]:
+            - listitem [ref=f9e53]:
+              - link "대시보드" [disabled] [ref=f9e54]
+        - button "테마 전환" [ref=f9e56]:
+          - img
+          - generic [ref=f9e57]: 테마 전환
+      - main [ref=f9e58]:
+        - generic [ref=f9e59]:
+          - generic [ref=f9e60]:
+            - generic [ref=f9e61]:
+              - generic [ref=f9e62]:
+                - generic [ref=f9e63]: 총 매출
+                - generic [ref=f9e64]: ₩48,320,000
+                - generic [ref=f9e66]:
+                  - img
+                  - text: +12.4%
+              - paragraph [ref=f9e68]: 지난달 대비 상승
+            - generic [ref=f9e69]:
+              - generic [ref=f9e70]:
+                - generic [ref=f9e71]: 신규 가입자
+                - generic [ref=f9e72]: 1,284명
+                - generic [ref=f9e74]:
+                  - img
+                  - text: +4.1%
+              - paragraph [ref=f9e76]: 이번 달 누적 가입자
+            - generic [ref=f9e77]:
+              - generic [ref=f9e78]:
+                - generic [ref=f9e79]: 활성 사용자
+                - generic [ref=f9e80]: 9,842명
+                - generic [ref=f9e82]:
+                  - img
+                  - text: "-1.8%"
+              - paragraph [ref=f9e84]: 최근 7일 기준
+            - generic [ref=f9e85]:
+              - generic [ref=f9e86]:
+                - generic [ref=f9e87]: 전환율
+                - generic [ref=f9e88]: 3.2%
+                - generic [ref=f9e90]:
+                  - img
+                  - text: +0.6%
+              - paragraph [ref=f9e92]: 방문 대비 결제 전환
+          - generic [ref=f9e94]:
+            - generic [ref=f9e95]: 월별 매출 추이
+            - generic [ref=f9e96]: 최근 6개월간 매출과 주문 건수
+          - generic [ref=f9e101]:
+            - generic [ref=f9e102]:
+              - generic [ref=f9e103]: 최근 주문
+              - generic [ref=f9e104]: 가장 최근 접수된 주문 5건입니다.
+            - table [ref=f9e107]:
+              - rowgroup [ref=f9e108]:
+                - row "주문번호 고객명 금액 상태" [ref=f9e109]:
+                  - columnheader "주문번호" [ref=f9e110]
+                  - columnheader "고객명" [ref=f9e111]
+                  - columnheader "금액" [ref=f9e112]
+                  - columnheader "상태" [ref=f9e113]
+              - rowgroup [ref=f9e114]:
+                - row "ORD-1042 김민준 ₩128,000 완료" [ref=f9e115]:
+                  - cell "ORD-1042" [ref=f9e116]
+                  - cell "김민준" [ref=f9e117]
+                  - cell "₩128,000" [ref=f9e118]
+                  - cell "완료" [ref=f9e119]:
+                    - generic [ref=f9e120]: 완료
+                - row "ORD-1041 이서연 ₩64,000 처리중" [ref=f9e121]:
+                  - cell "ORD-1041" [ref=f9e122]
+                  - cell "이서연" [ref=f9e123]
+                  - cell "₩64,000" [ref=f9e124]
+                  - cell "처리중" [ref=f9e125]:
+                    - generic [ref=f9e126]: 처리중
+                - row "ORD-1040 박도윤 ₩256,000 완료" [ref=f9e127]:
+                  - cell "ORD-1040" [ref=f9e128]
+                  - cell "박도윤" [ref=f9e129]
+                  - cell "₩256,000" [ref=f9e130]
+                  - cell "완료" [ref=f9e131]:
+                    - generic [ref=f9e132]: 완료
+                - row "ORD-1039 최지우 ₩32,000 취소" [ref=f9e133]:
+                  - cell "ORD-1039" [ref=f9e134]
+                  - cell "최지우" [ref=f9e135]
+                  - cell "₩32,000" [ref=f9e136]
+                  - cell "취소" [ref=f9e137]:
+                    - generic [ref=f9e138]: 취소
+                - row "ORD-1038 정하은 ₩96,000 완료" [ref=f9e139]:
+                  - cell "ORD-1038" [ref=f9e140]
+                  - cell "정하은" [ref=f9e141]
+                  - cell "₩96,000" [ref=f9e142]
+                  - cell "완료" [ref=f9e143]:
+                    - generic [ref=f9e144]: 완료
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f9e150] [cursor=pointer]:
+    - img [ref=f9e151]
