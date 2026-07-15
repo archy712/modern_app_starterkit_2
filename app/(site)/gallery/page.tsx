@@ -121,6 +121,8 @@ export default function GalleryShowcasePage() {
   const [sliderValue, setSliderValue] = useState([40])
   const [progressValue] = useState(66)
   const [currentPage, setCurrentPage] = useState(1)
+  const [profileDialogOpen, setProfileDialogOpen] = useState(false)
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
 
   return (
     <div className="flex flex-col gap-6">
@@ -254,7 +256,7 @@ export default function GalleryShowcasePage() {
         title="오버레이 컴포넌트"
         description="Dialog, Popover, Tooltip 등 사용자 흐름을 잠시 멈추거나 보조 정보를 보여줍니다."
       >
-        <Dialog>
+        <Dialog open={profileDialogOpen} onOpenChange={setProfileDialogOpen}>
           <DialogTrigger render={<Button variant="outline" />}>
             다이얼로그 열기
           </DialogTrigger>
@@ -270,12 +272,19 @@ export default function GalleryShowcasePage() {
               <Input id="dialog-name" defaultValue="홍길동" />
             </Field>
             <DialogFooter showCloseButton>
-              <Button>저장</Button>
+              <Button
+                onClick={() => {
+                  setProfileDialogOpen(false)
+                  toast.success("저장되었습니다")
+                }}
+              >
+                저장
+              </Button>
             </DialogFooter>
           </DialogContent>
         </Dialog>
 
-        <AlertDialog>
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
           <AlertDialogTrigger render={<Button variant="destructive" />}>
             계정 삭제
           </AlertDialogTrigger>
@@ -288,7 +297,14 @@ export default function GalleryShowcasePage() {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel>취소</AlertDialogCancel>
-              <AlertDialogAction>삭제</AlertDialogAction>
+              <AlertDialogAction
+                onClick={() => {
+                  setDeleteDialogOpen(false)
+                  toast.success("계정이 삭제되었습니다")
+                }}
+              >
+                삭제
+              </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>

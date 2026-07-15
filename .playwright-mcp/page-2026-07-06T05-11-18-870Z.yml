@@ -1,0 +1,195 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link [ref=f8e187] [cursor=pointer]:
+          - /url: /
+          - img [ref=f8e6]
+          - generic [ref=f8e8]: Starter Kit
+        - navigation [ref=f8e9]:
+          - list [ref=f8e10]:
+            - listitem [ref=f8e11]:
+              - link [ref=f8e188] [cursor=pointer]:
+                - /url: /
+                - text: 홈
+            - listitem [ref=f8e13]:
+              - link [ref=f8e189] [cursor=pointer]:
+                - /url: /gallery
+                - text: 갤러리
+            - listitem [ref=f8e15]:
+              - link [ref=f8e190] [cursor=pointer]:
+                - /url: /dashboard
+                - text: 대시보드
+        - button [ref=f8e191]:
+          - img
+          - generic [ref=f8e19]: 테마 전환
+    - main [ref=f8e20]:
+      - generic [ref=f8e21]:
+        - generic [ref=f8e22]:
+          - heading [level=1] [ref=f8e192]: 컴포넌트 갤러리
+          - paragraph [ref=f8e24]: 설치된 컴포넌트를 카테고리별로 직접 조작해볼 수 있습니다.
+        - generic [ref=f8e25]:
+          - tablist [ref=f8e27]:
+            - tab [selected] [ref=f8e193]: 쇼케이스
+            - tab [ref=f8e194]: 폼 예제
+            - tab [ref=f8e195]: 테이블 예제
+          - button [ref=f8e196] [cursor=pointer]:
+            - text: 대시보드 예제 보기
+            - img
+        - generic [ref=f8e32]:
+          - generic [ref=f8e33]:
+            - generic [ref=f8e34]:
+              - generic [ref=f8e35]: 기초 입력 컴포넌트
+              - generic [ref=f8e36]: Input, Select, Checkbox 등 폼에서 가장 많이 쓰이는 요소들입니다.
+            - generic [ref=f8e37]:
+              - group [ref=f8e38]:
+                - generic [ref=f8e39]: 이름
+                - textbox [ref=f8e197]:
+                  - /placeholder: 홍길동
+                - paragraph [ref=f8e41]: 실시간으로 값이 반영됩니다.
+              - group [ref=f8e42]:
+                - generic [ref=f8e43]: 메모
+                - textbox [ref=f8e198]:
+                  - /placeholder: 자유롭게 입력하세요
+              - group [ref=f8e45]:
+                - generic [ref=f8e46]: 역할
+                - combobox [ref=f8e47]:
+                  - generic [ref=f8e48]: developer
+                  - img: ▼
+                - textbox [ref=f8e49]: developer
+              - generic [ref=f8e50]:
+                - group [ref=f8e51]:
+                  - checkbox [checked] [ref=f8e199]:
+                    - img [ref=f8e54]
+                  - checkbox [checked] [ref=f8e56]
+                  - generic [ref=f8e57]: 이용약관에 동의합니다
+                - radiogroup [ref=f8e58]:
+                  - group [ref=f8e59]:
+                    - radio [checked] [ref=f8e200]
+                    - radio [checked] [ref=f8e63]
+                    - generic [ref=f8e64]: 월간
+                  - group [ref=f8e65]:
+                    - radio [ref=f8e201]
+                    - radio [ref=f8e67]
+                    - generic [ref=f8e68]: 연간
+                - group [ref=f8e69]:
+                  - switch [checked] [ref=f8e202]
+                  - checkbox [checked] [ref=f8e71]
+                  - generic [ref=f8e72]: 알림 받기
+              - generic [ref=f8e73]:
+                - generic [ref=f8e74]:
+                  - text: 음량
+                  - generic [ref=f8e75]: "40"
+                - group [ref=f8e76]:
+                  - slider [ref=f8e81]: "40"
+              - generic [ref=f8e82]:
+                - generic [ref=f8e83]: 정렬
+                - group [ref=f8e84]:
+                  - button [pressed] [ref=f8e203]: 왼쪽
+                  - button [ref=f8e204]: 가운데
+                  - button [ref=f8e205]: 오른쪽
+                - button [ref=f8e206]: 즐겨찾기
+          - generic [ref=f8e89]:
+            - generic [ref=f8e90]:
+              - generic [ref=f8e91]: 피드백 컴포넌트
+              - generic [ref=f8e92]: 상태, 진행률, 알림을 사용자에게 전달합니다.
+            - generic [ref=f8e93]:
+              - alert [ref=f8e94]:
+                - img [ref=f8e95]
+                - generic [ref=f8e97]: 업데이트 안내
+                - generic [ref=f8e98]: 새로운 기능이 추가되었습니다. 자세한 내용을 확인해보세요.
+              - generic [ref=f8e99]:
+                - generic [ref=f8e100]: 기본
+                - generic [ref=f8e101]: 보조
+                - generic [ref=f8e102]: 아웃라인
+                - generic [ref=f8e103]: 위험
+              - generic [ref=f8e104]:
+                - generic [ref=f8e105]: 진행률 66%
+                - progressbar [ref=f8e106]: x
+              - generic [ref=f8e110]: 스켈레톤
+              - button [ref=f8e207]: 토스트 알림 띄우기
+          - generic [ref=f8e117]:
+            - generic [ref=f8e118]:
+              - generic [ref=f8e119]: 오버레이 컴포넌트
+              - generic [ref=f8e120]: Dialog, Popover, Tooltip 등 사용자 흐름을 잠시 멈추거나 보조 정보를 보여줍니다.
+            - generic [ref=f8e121]:
+              - button [expanded] [ref=f8e208]: 다이얼로그 열기
+              - button [ref=f8e209]: 계정 삭제
+              - button [ref=f8e210]: 팝오버 열기
+              - button [ref=f8e125]:
+                - img
+              - button [ref=f8e211]: "@nextjs"
+          - generic [ref=f8e127]:
+            - generic [ref=f8e128]:
+              - generic [ref=f8e129]: 네비게이션 컴포넌트
+              - generic [ref=f8e130]: 위치 안내와 메뉴 탐색을 돕는 컴포넌트입니다.
+            - generic [ref=f8e132]:
+              - navigation [ref=f8e212]:
+                - list [ref=f8e134]:
+                  - listitem [ref=f8e135]:
+                    - link [ref=f8e213] [cursor=pointer]:
+                      - /url: /
+                      - text: 홈
+                  - listitem [ref=f8e137]:
+                    - img [ref=f8e138]
+                  - listitem [ref=f8e140]:
+                    - link [ref=f8e214] [cursor=pointer]:
+                      - /url: /gallery
+                      - text: 갤러리
+                  - listitem [ref=f8e142]:
+                    - img [ref=f8e143]
+                  - listitem [ref=f8e145]:
+                    - link [disabled] [ref=f8e215]: 쇼케이스
+              - separator [ref=f8e147]
+              - navigation [ref=f8e216]:
+                - list [ref=f8e149]:
+                  - listitem [ref=f8e150]:
+                    - button [ref=f8e217] [cursor=pointer]:
+                      - img
+                      - generic [ref=f8e152]: Previous
+                  - listitem [ref=f8e153]:
+                    - button [ref=f8e218] [cursor=pointer]: "1"
+                  - listitem [ref=f8e155]:
+                    - button [ref=f8e219] [cursor=pointer]: "2"
+                  - listitem [ref=f8e157]:
+                    - button [ref=f8e220] [cursor=pointer]: "3"
+                  - listitem [ref=f8e159]:
+                    - button [ref=f8e221] [cursor=pointer]:
+                      - generic [ref=f8e161]: Next
+                      - img
+              - button [ref=f8e222]:
+                - img
+                - text: 계정 메뉴
+    - contentinfo [ref=f8e163]:
+      - generic [ref=f8e164]:
+        - generic [ref=f8e165]:
+          - generic [ref=f8e166]: Starter Kit
+          - navigation [ref=f8e167]:
+            - link [ref=f8e223] [cursor=pointer]:
+              - /url: /
+              - text: 홈
+            - link [ref=f8e224] [cursor=pointer]:
+              - /url: /gallery
+              - text: 갤러리
+            - link [ref=f8e225] [cursor=pointer]:
+              - /url: /dashboard
+              - text: 대시보드
+        - separator [ref=f8e171]
+        - paragraph [ref=f8e172]: © 2026 Starter Kit. Next.js, TypeScript, Tailwind CSS, shadcn/ui로 제작되었습니다.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f8e178] [cursor=pointer]:
+    - img [ref=f8e179]
+  - alert [ref=f8e186]
+  - dialog "프로필 수정" [ref=f8e229]:
+    - generic [ref=f8e230]:
+      - heading "프로필 수정" [level=2] [ref=f8e231]
+      - paragraph [ref=f8e232]: 변경 사항은 저장 버튼을 눌러야 반영됩니다.
+    - group [ref=f8e233]:
+      - generic [ref=f8e234]: 이름
+      - textbox "이름" [active] [ref=f8e235]: 홍길동
+    - generic [ref=f8e236]:
+      - button "저장" [ref=f8e237]
+      - button "Close" [ref=f8e238]
+    - button "Close" [ref=f8e239]:
+      - img
+      - generic [ref=f8e240]: Close
