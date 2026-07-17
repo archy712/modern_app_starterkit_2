@@ -98,11 +98,9 @@ export default function LoginPage() {
                     {isSubmitting ? "로그인 중..." : "로그인 하기"}
                   </Button>
                   <Button
-                    type="button"
                     variant="outline"
-                    onClick={() =>
-                      toast.info("회원가입 페이지는 준비 중입니다")
-                    }
+                    nativeButton={false}
+                    render={<Link href="/signup" />}
                   >
                     회원 가입
                   </Button>
